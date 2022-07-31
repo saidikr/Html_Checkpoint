@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: "fredoka";
+    src: url("../fonts/Fredoka-Regular.ttf");
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #23273A;
+    color: white;
+    width: 100%;
+    font-family: "Fredoka", sans-serif;
+}
+.hero{
+    padding-top: 40px;
+}
+header{
+    background-color: #1F2235;
+    width: 100%;
+        height: 80px;
+            position: relative;
+            top: -7px;
+}
+.main{
+    width: 100%;
+}
+.header-h1{
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    left: 155px;
+}
+
+.navbar {
+    display: inline-block;
+    position: relative;
+    right: -600px;
+    top: -25px;
+
+}
+.elemnts{
+    list-style-type: none;
+}
+
+.elemnts li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+.elemnts a{
+    text-decoration: none;
+    color: white;
+}
+.hero_left_content{
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    padding-left:150px ;
+}
+.hero_right_content {
+    display: inline-block;
+    padding:0 50px;
+    padding-left: 100px;
+}
+button{
+    width: 80px;
+    height: 35px;
+    background-color:transparent;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid #FF4A57;
+}
+.about,.work,.resume,.contact{
+    padding: 0 150px;
+        padding-top: 50px;
+}
+th, td {
+
+        color: white;
+        border: 1px solid #FF4A57;
+        padding: 5px;
+        border-radius: 10px;
+
+
+}
+form input{
+    border: 1px solid #FF4A57;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 20px;
+}
