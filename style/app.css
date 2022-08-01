@@ -69,10 +69,15 @@ button{
     color: white;
     border-radius: 25px;
     border: 1px solid #FF4A57;
+    font-family: "Fredoka", sans-serif;
+
 }
 .about,.work,.resume,.contact{
     padding: 0 150px;
         padding-top: 50px;
+}
+.contact{
+            padding-bottom: 50px;
 }
 th, td {
 
@@ -92,4 +97,30 @@ form input{
 }
 img {
     border-radius: 25px;
+}
+.sub{
+        width: 80px;
+        height: 25px;
+        background-color: transparent;
+        color: white;
+        border-radius: 25px;
+        border: 1px solid #FF4A57;
+        font-family: "Fredoka", sans-serif;
+        margin-left: 25px;
+}
+footer{
+        background-color: #1F2235;
+        padding: 0 150px;
+        height: 74px;
+}
+footer h1{
+    display: inline-block;
+    margin-right: 25px;
+}
+footer a{
+    margin-left: 15px;
+}
+audio{
+    height: 40px;
+    width: 300px;
 }
